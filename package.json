@@ -1,6 +1,8 @@
 {
   "scripts": {
+
     "build": "node scripts/check-site.js && node scripts/build-public.js",
+
     "dev": "python3 -m http.server 5173"
   },
   "devDependencies": {}
